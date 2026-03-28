@@ -1,6 +1,6 @@
 namespace Ass82;
 
-public class NetworkResource : Resource, IDisposable
+class NetworkResource : Resource, IDisposable
 {
     public NetworkResource(string name) : base(name){}
     public override void Open()

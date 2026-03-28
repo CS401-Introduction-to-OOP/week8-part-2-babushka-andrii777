@@ -1,6 +1,6 @@
 namespace Ass82;
 
-public class FileResource : Resource, IDisposable
+class FileResource : Resource, IDisposable
 {
     public FileResource(string name) : base(name){}
     public override void Open()
